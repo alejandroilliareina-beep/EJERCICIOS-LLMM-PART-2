@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #000;
+    background-image: url("../IMAGENES/EJERCICIO 3.jpg");
+    background-repeat: no-repeat;
+    background-position: center 10px;
+    background-size: 100% 110%;
+    min-height: 100vh;
+}
+
+/* --- BLOQUE DIV SUPERIOR --- */
+.bloque-div {
+    background-color: #78909c; /* Tonalidad gris-azulada del bloque */
+    color: #ffffff;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+}
+
+.bloque-div h2 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bloque-div p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* --- BLOQUE INFERIOR --- */
+.bloque-inferior {
+    background-color: #f0e68c; /* Tonalidad de fondo amarillenta/crema */
+    padding: 25px;
+    border-radius: 4px;
+}
+
+.bloque-inferior p {
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Estilos específicos para los textos resaltados dentro del párrafo */
+.resaltado-magenta {
+    background-color: #ff00ff; /* Color fucsia/magenta brillante de fondo */
+    color: #000000;
+}
+
+.destacado-negrita {
+    background-color: #aed581; /* Fondo verdoso claro que se observa en la imagen */
+    font-weight: bold;
+    color: #000000;
+    padding: 0 2px;
+}
+
+.cursiva-subrayada {
+    font-style: italic;
+    text-decoration: underline;
+    background-color: #ffffff; /* Fondo blanco sutil que resalta el bloque de texto */
+    padding: 0 2px;
+}

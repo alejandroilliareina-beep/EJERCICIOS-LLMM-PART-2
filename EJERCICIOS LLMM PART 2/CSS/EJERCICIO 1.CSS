@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #000;
+}
+
+/* Estilo para las barras de título celestes */
+.seccion-titulo {
+    background-color: #4fc3f7;
+    text-align: center;
+    padding: 8px 0;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.seccion-titulo h2 {
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.divisor {
+    border: none;
+    border-top: 1px solid #777;
+    margin: 30px 0;
+}
+
+.first-level > li {
+    list-style-type: circle;
+    color: #000000;
+}
+
+.second-level > li {
+    list-style-type: square;
+    color: #000000;
+}
+
+.third-level > li {
+    list-style-type: lower-alpha;
+}
+
+.fourth-level > li {
+    list-style-type: lower-roman;
+}
